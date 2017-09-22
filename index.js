@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
-var array = ["Milo","Otis","Garfield"];
+var kittens = ["Milo","Otis","Garfield"];
 
-function destructivelyAppendKitten(array,kitten){
-    return array.push(kitten);
+function destructivelyAppendKitten(kittens,kitten){
+    return kittens.push(kitten);
 }
